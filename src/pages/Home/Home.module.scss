@@ -1,0 +1,44 @@
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profileContainer {
+  height: 65%;
+}
+
+.profileWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 20%;
+  position: relative;
+  height: 53%;
+  background-color: var(--ion-color-primary);
+  box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 3.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 4.5px 10px rgba(0, 0, 0, 0.06),
+    0 5.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 6.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 7px 80px rgba(0, 0, 0, 0.12);
+  border-bottom-left-radius: 60% 20%;
+  border-bottom-right-radius: 60% 20%;
+}
+
+.name {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 1.7rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.nmls {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+}
+

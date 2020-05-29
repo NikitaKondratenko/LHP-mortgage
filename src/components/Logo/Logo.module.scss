@@ -1,0 +1,26 @@
+.logoWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.small {
+  font-size: 10px;
+}
+
+.logoMain {
+  font-family: "Laila", sans-serif;
+  font-size: 3em;
+  margin-right: 15px;
+}
+
+.logoSub {
+  font-weight: bold;
+  font-size: 1em;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 4px;
+  padding: 5px 10px;
+  letter-spacing: 3px;
+}

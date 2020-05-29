@@ -1,0 +1,52 @@
+.content {
+  font-family: "Roboto", sans-serif;
+  padding: 35px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 55%;
+  background-color: var(--ion-color-light);
+  border-bottom: 3px solid var(--ion-color-grey);
+}
+
+.hello {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.description {
+  text-align: center;
+  font-size: 4vmax;
+  font-style: italic;
+}
+
+.loginForm {
+  min-height: 45%;
+  padding: 25px 10px;
+
+  .input {
+    border-radius: 8px;
+    --padding-start: 10px !important;
+    --padding-top: 15px !important;
+    --padding-bottom: 15px !important;
+    --background: var(--ion-color-light);
+  }
+
+  .label {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+
+  .submitButton {
+    margin: 30px 18px 0;
+    height: 45px;
+    text-transform: none;
+    --border-radius: 10px;
+    font-size: 16px;
+  }
+}

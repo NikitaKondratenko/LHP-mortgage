@@ -1,0 +1,7 @@
+{
+  "name": "LHP-mortgage",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
